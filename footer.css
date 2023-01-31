@@ -1,0 +1,24 @@
+.footerBg{
+    background: hsla(213, 59%, 40%, 1);
+
+    background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
+}
+
+#hlink{
+    text-decoration:none;
+    transition: all .5s ease-in;
+}
+#hlink:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(none,white);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 1s;
+}
