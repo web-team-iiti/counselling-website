@@ -1,0 +1,13 @@
+.navbar {
+    justify-content: space-between;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    background: hsla(213, 59%, 40%, 1);
+
+    background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
+}
