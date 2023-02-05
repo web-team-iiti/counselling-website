@@ -12,3 +12,7 @@ function myFunction() {
         navlist.classList.remove("sticky");
     }
 }
+
+function myFunction() {
+    document.getElementById("linkid").click();
+}
