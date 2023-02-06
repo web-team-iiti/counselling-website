@@ -8,9 +8,19 @@
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
     color: white;
     font-family: 'Source Code Pro', monospace;
-} 
+    overflow: hidden;
+    z-index: 99;
+    /* background-color: transparent !important; */
+}
 .navbar-brand{
     font-family: 'Itim', cursive;
+}
+.events-btn{
+    border: white 1px solid;
+}
+.events-btn:hover{
+    background-color: white;
+    color:hsla(213, 59%, 40%, 1) !important;
 }
 .content {
     padding-top: 4rem;
