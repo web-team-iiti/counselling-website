@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <header id="Navbar"><nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <header><nav class="navbar sticky navbar-expand-lg bg-body-tertiary" id="Navbar">
         <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
           <a class="navbar-brand text-center text-white" href="#"><strong>Counselling Services <br>IIT Indore</strong></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
           <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-white" href="#home">Home</a>
+                <a class="nav-link text-white" href="#home" id="b1">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#ourteam">Our Team</a>
@@ -68,8 +68,7 @@
         <!-- carousel -->
         <div class="position-relative carousel">
           <section class="section section-lg section-hero section-shaped container01" style="padding-bottom: 0px; height:fit-content">
-            <div class="shape shape-style-1 shape-primary">
-            </div>
+            <div class="shape shape-style-1 shape-primary"></div>
             <div class="container py-md">
               <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
@@ -82,20 +81,20 @@
                 </div>
                 <div class="col-lg-6 mb-lg-auto" >
                   <div class="rounded shadow-lg overflow-hidden ">
-                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <div id="carousel" class="carousel slide" data-bs-ride="true">
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                        <li data-target="#carousel" data-slide-to="3"></li>
-                        <li data-target="#carousel" data-slide-to="4"></li>
-                        <li data-target="#carousel" data-slide-to="5"></li>
-                        <li data-target="#carousel" data-slide-to="6"></li>
-                        <li data-target="#carousel" data-slide-to="7"></li>
-                        <li data-target="#carousel" data-slide-to="8"></li>
-                        <li data-target="#carousel" data-slide-to="9"></li>
-                        <li data-target="#carousel" data-slide-to="10"></li>
-                        </ol>
+                        <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="5"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="6"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="7"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="8"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="9"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="10"></li>
+                      </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img class="img-fluid1" style="width:100%; height:auto;" src="https://source.unsplash.com/hluOJZjLVXc">
@@ -128,11 +127,11 @@
                           <img class="img-fluid1" style="width:100%; height:auto;" src="https://source.unsplash.com/V9sHuZ11lmk">
                         </div>
                       </div>
-                      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carousel" role="button" data-bs-target="#carousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carousel" role="button" data-bs-target="#carousel" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
@@ -234,7 +233,7 @@
           <hr>
           <a href="#" class="text-decoration-none">Event Gallery</a>
         </div>
-        <h3 class="heading pt-3" id="process">COunselling Process</h3>
+        <h3 class="heading pt-3" id="process">Counselling Process</h3>
         <div class="container paragraph py-3">
           <p>Counselling is a helping process which aims to facilitate the process of growth and well being. It empowers students with enhanced ability to solve problems, make decisions and deal more effectively with their concerns. Some of the common concerns of this young people today are-
           </p>
@@ -298,46 +297,36 @@
           <hr>
           <a href="http://manodarpan.mhrd.gov.in/" class="text-decoration-none">http://manodarpan.mhrd.gov.in</a>
         </div>
-        <h3 class="heading pt-3" id="contact">Contact</h3>
-        <div class="container paragraph py-3">
-          <p>
-            Postal Address: <br>
-            West wing, 2nd Floor, Abhinandan Bhawan, <br>
-            Indian Institute of Technology IndoreKhandwa Road, <br>
-            Simrol, Indore, Pin code 453 552, <br>
-            Madhya Pradesh, India
-          </p>
-          <p>Phone: +91 731- 660 (Ext. No. 3425)</p>
-          <p>Email: counsellor@iiti.ac.in</p>
-        </div>
       </div></main>
       <!-- footer -->
       <footer class="footerBg py-4 mt-3">
         <div class="container">
           <div class="row">
             <div class="col-md mt-md-0 mt-4 text-white">
-              <!-- edit this column as location istead of useful links -->
-              <h5 class="text-uppercase fw-bold">Useful Links</h5>
-              <i class="fa fa-house pe-2"></i><a href="#" class="text-white" id="hlink">Home </a> <br>
-              <i class="fa fa-chart-line pe-2 "></i><a href="#" class="text-white" id="hlink">Activities</a> <br>
-              <i class="fa fa-chalkboard-user pe-2 "></i><a href="#" class="text-white" id="hlink">Counseling Process</a> <br>
-              <i class="fa fa-question-circle pe-2 "></i><a href="#" class="text-white" id="hlink">FAQ</a> <br>
-              <i class="fa fa-comment pe-2 "></i><a href="#" class="text-white" id="hlink">Contact</a> <br>
+              <h5 class="text-uppercase fw-bold">Postal Address</h5>
+              <p>
+                West wing, 2nd Floor, Abhinandan Bhawan, <br>
+                Indian Institute of Technology Indore<br>
+                Khandwa Road, Simrol,<br>
+                Indore, Pin code 453 552, <br>
+                Madhya Pradesh, India
+              </p>
             </div>
             <div class="col-md mt-md-0 mt-4 text-white">
-              <!-- Edit email and phone number as in contact -->
-              <h5 class="text-uppercase fw-bold">Contact Us</h5>
+              <h5 class="text-uppercase fw-bold" id="contact">Contact Us</h5>
               <p>
                 <i class="fas fa-envelope mr-3 "></i>
                 <span>Mail us at:</span> <br>
-                <a href="mailto:head-cs@iiti.ac.in" class="text-white" id="hlink"> head-cs@iiti.ac.in</a> (Head, Counselling Services)
+                <a href="mailto:counsellor@iiti.ac.in" class="text-white" id="hlink"> counsellor@iiti.ac.in</a> (Counsellor)
                 <br>
-                <a href="mailto:counsellingcell@iiti.ac.in" class="text-white" id="hlink">counsellingcell@iiti.ac.in</a> (Appointments)
+                <a href="mailto:head-cs@iiti.ac.in" class="text-white" id="hlink"> head-cs@iiti.ac.in</a> (Head, Counselling Services)
+<!--                 <br>
+                <a href="mailto:counsellingcell@iiti.ac.in" class="text-white" id="hlink">counsellingcell@iiti.ac.in</a> (Appointments) -->
               </p>
               <p>
                 <i class="fas fa-phone mr-3"></i>
                 <span>Phone:</span>
-                +91 99XXXXX556
+                +91 731- 660 (Ext. No. 3425)
               </p>            
             </div>
             <div class="col-md mt-md-0 mt-4 text-white">

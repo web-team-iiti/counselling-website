@@ -1,59 +1,83 @@
 .navbar {
-    justify-content: space-between;
-    --bs-navbar-nav-link-padding-x: 1rem;
-    /* background: hsla(213, 59%, 40%, 1);
-    background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 ); */
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    overflow: hidden;
-    z-index: 99;
-    background-color: transparent !important;
+  justify-content: space-between;
+  --bs-navbar-nav-link-padding-x: 1rem;
+  background: hsla(213, 59%, 40%, 1);
+  background: linear-gradient(
+    45deg,
+    hsla(213, 59%, 40%, 1) 32%,
+    hsla(186, 74%, 70%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(213, 59%, 40%, 1) 32%,
+    hsla(186, 74%, 70%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(213, 59%, 40%, 1) 32%,
+    hsla(186, 74%, 70%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  overflow: hidden;
+  z-index: 50;
+  /* background-color: transparent !important; */
 }
-.navbar-s{
-    background: hsla(213, 59%, 40%, 1);
-    background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
+.navbar-brand {
+  font-family: "Itim", cursive;
 }
-.navbar-brand{
-    font-family: 'Itim', cursive;
+.events-btn {
+  border: white 1px solid;
 }
-.events-btn{
-    border: white 1px solid;
-}
-.events-btn:hover{
-    background-color: white;
-    color:hsla(213, 59%, 40%, 1) !important;
+.events-btn:hover {
+  background-color: white;
+  color: hsla(213, 59%, 40%, 1) !important;
 }
 .content {
-    padding-top: 4rem;
+  padding-top: 4rem;
+}
+#Navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
 }
 .carousel {
-    padding-top: 6rem;
-    padding-bottom: 4rem;
-} 
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
 .section-shaped .shape-style-1.shape-primary {
-    background: hsla(213, 59%, 40%, 1);
-    background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
+  background: hsla(213, 59%, 40%, 1);
+  background: linear-gradient(
+    45deg,
+    hsla(213, 59%, 40%, 1) 32%,
+    hsla(186, 74%, 70%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(213, 59%, 40%, 1) 32%,
+    hsla(186, 74%, 70%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(213, 59%, 40%, 1) 32%,
+    hsla(186, 74%, 70%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
 }
 .section-shaped .shape-primary {
-    /*  background: hsla(213, 59%, 40%, 1);
+  /*  background: hsla(213, 59%, 40%, 1);
     background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
     background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
     background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 ); */
 }
 .section-shaped .shape {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
