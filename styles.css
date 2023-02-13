@@ -1,23 +1,7 @@
 .navbar {
   justify-content: space-between;
   --bs-navbar-nav-link-padding-x: 1rem;
-  background: hsla(213, 59%, 40%, 1);
-  background: linear-gradient(
-    45deg,
-    hsla(213, 59%, 40%, 1) 32%,
-    hsla(186, 74%, 70%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    45deg,
-    hsla(213, 59%, 40%, 1) 32%,
-    hsla(186, 74%, 70%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    hsla(213, 59%, 40%, 1) 32%,
-    hsla(186, 74%, 70%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
+  background-image: linear-gradient(to right, #7BB2D5,#9DDDDA,#9DD1F1);
   color: white;
   font-family: "Source Code Pro", monospace;
   overflow: hidden;
@@ -72,18 +56,11 @@
   background: hsla(213, 59%, 40%, 1);
   background: linear-gradient(
     45deg,
-    hsla(213, 59%, 40%, 1) 32%,
+    hsl(213, 59%, 40%) 32%,
     hsla(186, 74%, 70%, 1) 100%
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 );
-}
-.section-shaped .shape-primary {
-  /*  background: hsla(213, 59%, 40%, 1);
-    background: linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -moz-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    background: -webkit-linear-gradient(45deg, hsla(213, 59%, 40%, 1) 32%, hsla(186, 74%, 70%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a60a3", endColorstr="#7ce0eb", GradientType=1 ); */
 }
 .section-shaped .shape {
   position: absolute;
@@ -116,4 +93,8 @@
 .nav-link:hover::after,
 .nav-link:hover::before {
   width: 100%;
+}
+navbar-toggler-icon {
+  margin-left: 80vw;
+  margin-top: o;
 }
