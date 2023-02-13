@@ -32,17 +32,23 @@
 
 h3.heading {
   color: #041324;
+  font-size:xx-large ;
 }
 
 div.paragraph {
   border-radius: 15px;
-  /* background-color:aliceblue; */
-  /* background-image: url('right\ blob.png'); */
 
 }
 .counselImg{
   background-image: url('media/counsell.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: center;
+}
+
+@media (max-width:992px) {
+  .counselImg{
+    background: none;
+  }
 }
 
