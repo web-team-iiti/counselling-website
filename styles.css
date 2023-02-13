@@ -11,6 +11,7 @@
 .navbar-brand {
   font-family: "Itim", cursive;
   margin-left: 4vw;
+  padding: 3vh;
 }
 .events-btn {
   border: white 1px solid;
@@ -97,4 +98,10 @@
 navbar-toggler-icon {
   margin-left: 80vw;
   margin-top: o;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
