@@ -31,11 +31,18 @@
 }
 
 h3.heading {
-  color: #143e6e;
+  color: #041324;
 }
 
 div.paragraph {
-  border: 0.1mm solid #143e6e;
   border-radius: 15px;
-  background-color:aliceblue;
+  /* background-color:aliceblue; */
+  /* background-image: url('right\ blob.png'); */
+
 }
+.counselImg{
+  background-image: url('counsell.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
