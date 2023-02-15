@@ -44,7 +44,9 @@ div.paragraph {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
+
 }
+
 
 @media (max-width:992px) {
   .counselImg{
